@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char c;
+    char c[];
     int i=0;
     while (c!='/0'){
         scanf("%c",&c[i]);
