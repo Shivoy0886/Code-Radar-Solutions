@@ -4,13 +4,13 @@ int main() {
     char c[50];
     int i=0;
     while (c!='/0'){
-        scanf("%c",&c[i]);
+        scanf("%s",&c[i]);
         i++;
     }
     printf("You entered: ");
     int j=0;
     while(c!='/0'){
-        printf("%c",c[j]);
+        printf("%s",c[j]);
         j++;
     }
     return 0;
