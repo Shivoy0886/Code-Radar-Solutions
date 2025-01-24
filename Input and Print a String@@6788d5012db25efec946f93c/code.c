@@ -2,7 +2,7 @@
 
 
 int main() {
-    char c[];
+    char c[50];
     int i=0;
     while (c[i]!='/0'){
         scanf("%c",&c[i]);
