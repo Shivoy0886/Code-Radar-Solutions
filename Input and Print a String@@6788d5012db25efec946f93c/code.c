@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    char c[50];
+    char c[];
     int i=0;
     while (c!='/0'){
-        scanf("%s",&c[i]);
+        scanf("%c",&c[i]);
         i++;
     }
     printf("You entered: ");
     int j=0;
     while(c!='/0'){
-        printf("%s",c[j]);
+        printf("%c",c[j]);
         j++;
     }
     return 0;
