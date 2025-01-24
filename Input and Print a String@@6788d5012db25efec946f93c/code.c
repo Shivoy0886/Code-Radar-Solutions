@@ -8,4 +8,5 @@ int main() {
         scanf("%c",&c[i]);
         i++;
     }
+    return 0;
 }
