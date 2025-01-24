@@ -7,7 +7,7 @@ int main() {
         scanf("%c",&c[i]);
         i++;
     }
-    printf("You entered:");
+    printf("You entered: ");
     int j=0;
     while(c!='/0'){
         printf("%c",c[j]);
