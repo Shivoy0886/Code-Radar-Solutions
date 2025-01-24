@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <string.h>
+
 
 int main() {
-    char str[50];
-    scanf("%s",str);
-    printf("You entered: %s",str);
-    return 0;
+    char c[];
+    int i=0;
+    while (c[i]!='/0'){
+        scanf("%c",&c[i]);
+        i++;
+    }
 }
