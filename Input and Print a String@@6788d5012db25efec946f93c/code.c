@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <cs50.h>
+#include <string.h>
 
 int main() {
-    string str=get_string("");
+    string str=scanf("%s",&str);
     printf("You entered: %s",str);
     return 0;
 }
