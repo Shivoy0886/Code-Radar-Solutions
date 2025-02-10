@@ -9,7 +9,6 @@ int main() {
     scanf("%d",&n);
     nsp=n/2;
     nst=1;
-    n=n*2-1;
     for(int j=0;j<n;j++){
         for(int i=0;i<nsp;i++){
             printf(" ");
