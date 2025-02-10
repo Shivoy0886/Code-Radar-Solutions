@@ -22,6 +22,5 @@ int main() {
         else nst-=2;
         printf("\n");
     }
-    }
     return 0;
 }
