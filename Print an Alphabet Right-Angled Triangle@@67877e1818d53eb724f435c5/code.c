@@ -5,14 +5,15 @@ char* welcome() {
 }
 
 int main() {
-    int n,nsp,nst;
+    int n,c;
     scanf("%d",&n);
+    c='A';
     for(int j=0;j<n;j++){
-        for(int i=0;i<n;i++){
-            printf("%d",i);
+        for(int i=0;i<=j;i++){
+            printf("%c",c);
+            c++;
         }
         printf("\n");
-    }
-    
+    } 
     return 0;
 }
