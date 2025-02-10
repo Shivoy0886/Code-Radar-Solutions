@@ -11,6 +11,6 @@ int main() {
     else  max=n2;
     if(n2>n3) max=n2;
     else max=n3;
-    prrintf("%d",max);
+    printf("%d",max);
     return 0;
 }
