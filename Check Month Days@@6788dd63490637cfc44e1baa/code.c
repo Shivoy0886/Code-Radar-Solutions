@@ -5,10 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int n1,d1=30,d2=31;
+    int n1;
     scanf("%d",&n1);
-    if(n%2==0) printf("%d",d1);
-    else if (n%2!=0) printf("%d",d2);
+    if(n1%2==0) printf("%d",30);
+    else if (n%2!=0) printf("%d",31);
     
 
     return 0;
