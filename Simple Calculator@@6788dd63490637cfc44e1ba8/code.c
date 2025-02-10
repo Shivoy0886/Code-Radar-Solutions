@@ -8,10 +8,15 @@ int main() {
      int n1,n2;
      char c;
     scanf("%d %d %c",&n1,&n2,&c);
-    if (c=='+') printf("%d",n1+n2);
+    if (c=='/'){
+        if(n2!=0){
+            printf("%.f",(float)n1/n2);
+        }
+        else printf("Error");
+    }
+    else if (c=='+') printf("%d",n1+n2);
     else if (c=='-') printf("%d",n1-n2);
     else if (c=='*') printf("%d",n1*n2);
-    else if (c=='/') printf("%.f",(float)n1/n2);
     else printf("Error");
 
     return 0;
