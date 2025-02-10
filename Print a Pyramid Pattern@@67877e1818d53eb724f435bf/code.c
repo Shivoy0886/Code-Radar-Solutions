@@ -9,10 +9,10 @@ int main() {
     scanf("%d",&n);
     for(int j=0;j<n;j++){
         for(int i=0;i<n-1-j;i++){
-            printf("  ");
+            printf(" ");
         }
         for(int k=0;k<=2*j;k++){
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
