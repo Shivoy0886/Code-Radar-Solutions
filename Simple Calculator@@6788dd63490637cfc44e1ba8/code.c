@@ -11,6 +11,6 @@ int main() {
     if (c=='+') printf("%d",n1+n2);
     if (c=='-') printf("%d",n1-n2);
     if (c=='*') printf("%d",n1*n2);
-    if (c=='/') printf("%f",(float)n1/n2);
+    if (c=='/') printf("%.f",(float)n1/n2);
     return 0;
 }
