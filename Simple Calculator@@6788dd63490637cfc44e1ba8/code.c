@@ -12,7 +12,7 @@ int main() {
         if(n2!=0){
             printf("%.f",(float)n1/n2);
         }
-        else printf("Error");
+        else printf("error");
     }
     else if (c=='+') printf("%d",n1+n2);
     else if (c=='-') printf("%d",n1-n2);
