@@ -9,7 +9,7 @@ int main() {
     scanf("%d %d %d",&n1,&n2,&n3);
     if(n1>n2) n1=max;
     if(n1<n3) n3=max;
-    else
+    else n2=max;
     printf("%d",max);
     return 0;
 }
