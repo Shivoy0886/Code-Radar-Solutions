@@ -5,8 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int n,nsp=n;
+    int n,nsp;
     scanf("%d",&n);
+    nsp=n;
     for(int j=0;j<n;j++){
         for(int i=0;i<nsp-1;i++){
             if(j<=n/2){
