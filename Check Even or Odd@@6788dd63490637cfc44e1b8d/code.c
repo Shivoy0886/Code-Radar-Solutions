@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    if(n%2==0) printf("True");
-    else printf("False");
+    if(n%2==0) printf("Even");
+    else printf("Odd");
     
     return 0;
 }
