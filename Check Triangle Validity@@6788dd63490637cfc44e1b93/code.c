@@ -16,6 +16,6 @@ int main() {
     if(s3>s1){
         if(s3>s2+s1) printf("Valid");
     }
-    else printf("Invalid")
+    else printf("Invalid");
     return 0;
 }
