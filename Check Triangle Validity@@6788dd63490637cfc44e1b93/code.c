@@ -10,10 +10,10 @@ int main() {
     if(s1>s2){
         if(s1<s2+s3) printf("Valid");
     }
-    if(s2>s3){
+    else if(s2>s3){
         if(s2<s1+s3) printf("Valid");
     }
-    if(s3>s1){
+    else if(s3>s1){
         if(s3<s2+s1) printf("Valid");
     }
     else{
