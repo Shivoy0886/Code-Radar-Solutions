@@ -10,6 +10,6 @@ int main() {
     if(c=='a' || c=='i' || c=='o' || c=='u' || c=='e') printf("Vowel");
     // else printf("Consonant");
     if(c>='0' && c<='9') printf("Digit");
-    if(c>=33 && c<=41) printf("Special Character");
+    if(c>='!' && c<=')') printf("Special Character");
     return 0;
 }
