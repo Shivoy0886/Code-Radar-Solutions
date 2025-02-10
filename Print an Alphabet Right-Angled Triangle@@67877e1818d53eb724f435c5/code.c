@@ -7,10 +7,10 @@ char* welcome() {
 int main() {
     int n,c;
     scanf("%d",&n);
-    c='A';
     for(int j=0;j<n;j++){
+        c='A';
         for(int i=0;i<=j;i++){
-            printf("%c",c);
+            printf("%c ",c);
             c++;
         }
         printf("\n");
