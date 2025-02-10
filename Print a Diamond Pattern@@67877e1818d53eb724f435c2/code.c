@@ -11,12 +11,12 @@ int main() {
     nst=1;
     for(int j=0;j<n;j++){
         for(int i=0;i<nsp;i++){
-            printf("  ");
+            printf(" ");
         }
         if(j<n/2) nsp--;
         else nsp++;
         for(int k=0;k<nst;k++){
-            printf("* ");
+            printf("*");
         }
         if(j<n/2) nst+=2;
         else nst-=2;
