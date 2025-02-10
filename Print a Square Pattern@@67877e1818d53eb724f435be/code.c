@@ -9,11 +9,9 @@ int main() {
     scanf("%d",&n);
     for(int j=0;j<n;j++){
         for(int i=0;i<n;i++){
-            if(j==0 ||j==n){
                 printf("* ");
             }
         }
         printf("\n");
-    }
     return 0;
-}
+    }
