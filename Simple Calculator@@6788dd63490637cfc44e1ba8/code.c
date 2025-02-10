@@ -12,7 +12,7 @@ int main() {
     else if (c=='-') printf("%d",n1-n2);
     else if (c=='*') printf("%d",n1*n2);
     else if (c=='/') printf("%.f",(float)n1/n2);
-    else print("Error");
+    else printf("Error");
 
     return 0;
 }
