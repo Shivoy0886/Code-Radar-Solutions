@@ -8,13 +8,14 @@ int main() {
     int n;
     scanf("%d",&n);
     for(int j=0;j<n;j++){
-        char c='A';
-        for(int i=0;i<=j;i++){
-            printf("%c ",c);
-            c++;
+        for(int i=0;i<n-j;i++){
+            printf("  ");
+        }
+        for(int k=0;k<n;k++){
+            printf("%d ",k);
         }
         printf("\n");
     }
-    
+
     return 0;
 }
