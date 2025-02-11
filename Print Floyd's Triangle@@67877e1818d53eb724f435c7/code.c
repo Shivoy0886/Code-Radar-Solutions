@@ -5,11 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int n;
+    int n,k=1;
     scanf("%d",&n);
     for(int j=0;j<n;j++){
         for(int i=0;i<=j;i++){
-            printf("%d ",i+1);
+            printf("%d ",k);
+            k++;
         }
         printf("\n");
     }
