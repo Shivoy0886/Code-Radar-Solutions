@@ -16,6 +16,7 @@ int main() {
             // if(k<=n/2) no++;
             // else no--;
         }
+        no+=2;
         printf("\n");
     }
 
