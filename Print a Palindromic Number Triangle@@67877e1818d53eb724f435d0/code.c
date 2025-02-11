@@ -14,7 +14,7 @@ int main() {
         for(int k=0;k<no;k++){
             if(k<=n/2) no+=k;
             else no+=k-1;
-            printf("%d",k+1);
+            printf("%d",no);
         }
         no+=2;
         printf("\n");
