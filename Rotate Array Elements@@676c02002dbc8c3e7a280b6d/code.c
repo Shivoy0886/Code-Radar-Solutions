@@ -15,8 +15,8 @@ int main(void){
     for(int i=0;i<n-k;i++){
         num[n-1-i]=num[n-i-k+1];
     }
-    for(int i=k;i>0;i--){
-        num[n-k]=temp[i];
+    for(int i=k;i<n;i++){
+        num[i-k]=temp[i];
     }
 
     for(int i=0;i<n;i++){
