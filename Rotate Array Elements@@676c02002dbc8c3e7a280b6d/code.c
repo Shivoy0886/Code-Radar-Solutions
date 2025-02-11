@@ -8,15 +8,16 @@ int main(void){
         scanf("%d",&num[i]);
     }
     scanf("%d",&k);
-
-    int temp2=num[n-1];
-    int temp1=num[n-2];
-
-    for(int i=0;i<n-2;i++){
-        num[n-1-i]=num[n-i-3];
+    int temp[k];
+    for(int i=0;i<k;i++){
+        temp[i]=num[n-k];
     }
-    num[0]=temp1;
-    num[1]=temp2;
+    for(int i=0;i<n-k;i++){
+        num[n-1-i]=num[n-i-k+1];
+    }
+    for(int i=k;i>0;i--){
+        num[n-k]=temp[i];
+    }
 
     for(int i=0;i<n;i++){
         printf("%d\n",num[i]);
