@@ -9,8 +9,10 @@ int main(void){
     }
     scanf("%d",&k);
     int temp[k];
+    int v=n-1;
     for(int i=0;i<k;i++){
-        temp[i]=num[n-k];
+        temp[i]=num[v];
+        v--;
     }
     for(int i=0;i<n-k;i++){
         num[n-1-i]=num[n-i-k+1];
