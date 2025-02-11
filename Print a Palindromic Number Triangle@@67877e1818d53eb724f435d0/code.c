@@ -11,7 +11,7 @@ int main() {
         for(int i=0;i<n-j;i++){
             printf(" ");
         }
-        for(int k=0;k<nok++){
+        for(int k=0;k<no;k++){
             if(k<=n/2) no+=k;
             else no+=k-1;
             printf("%d",k+1);
