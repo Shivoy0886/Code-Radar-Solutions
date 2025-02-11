@@ -15,7 +15,7 @@ int main() {
 
 int isPrime(int num){
     int c;
-    for(int i;i<num;i++){
+    for(int i=0;i<num;i++){
         if(n%i==0){
             c++;
         }
