@@ -19,7 +19,7 @@ int isPrime(int num){
         if(num%i==0){
             c++;
         }
-        if(num==2) return 1;
+        if(c==2) return 1;
         else return 0;
     }
 }
