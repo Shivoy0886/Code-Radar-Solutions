@@ -9,11 +9,11 @@ int main(void){
     }
     scanf("%d",&k);
 
-    for(int i=0;i<n;i++){
-        temp=num[n-i-k+1];
-        fval=num[n+i-k];
-        num[n-i-k+1]=fval;
-        num[n+i-k]=temp;
+    int temp1=num[n-1];
+    int temp2=num[n-2];
+
+    for(int i=0;i<n-2;i++){
+        num[i+2]=num[i];
     }
 
     for(int i=0;i<n;i++){
