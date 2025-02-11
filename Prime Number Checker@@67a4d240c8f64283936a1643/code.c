@@ -11,4 +11,5 @@ int isPrime(int num)
     }
     if(c==2) return 1;
     else return 0;
+    c=0;
 }
