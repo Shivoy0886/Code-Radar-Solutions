@@ -13,7 +13,7 @@ int main(void){
     int temp1=num[n-2];
 
     for(int i=0;i<n-2;i++){
-        num[n-1-i]=num[n-i-1];
+        num[n-1-i]=num[n-i-k];
     }
     num[0]=temp1;
     num[1]=temp2;
