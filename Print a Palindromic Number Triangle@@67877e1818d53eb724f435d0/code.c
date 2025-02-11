@@ -12,7 +12,7 @@ int main() {
             printf(" ");
         }
         for(int k=0;k<no;k++){
-            printf("%d",k);
+            printf("%d",k+1);
             // if(k<=n/2) no++;
             // else no--;
         }
