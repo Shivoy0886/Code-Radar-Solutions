@@ -11,10 +11,10 @@ int main() {
         for(int i=0;i<n-j;i++){
             printf(" ");
         }
-        for(int k=0;k<no;k++){
+        for(int k=0;k<no){
+            if(k<=n/2) k++;
+            else k--;
             printf("%d",k+1);
-            // if(k<=n/2) no++;
-            // else no--;
         }
         no+=2;
         printf("\n");
