@@ -9,8 +9,8 @@ int main(void){
     }
     scanf("%d",&k);
 
-    int temp1=num[n-1];
-    int temp2=num[n-2];
+    int temp2=num[n-1];
+    int temp1=num[n-2];
 
     for(int i=0;i<n-2;i++){
         num[i+2]=num[i];
