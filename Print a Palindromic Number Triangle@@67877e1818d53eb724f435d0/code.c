@@ -5,17 +5,17 @@ char* welcome() {
 }
 
 int main() {
-    int n,no=1,i;
+    int n,no=1;
     scanf("%d",&n);
     for(int j=0;j<n;j++){
-        for(i=0;i<n-j;i++){
+        for(int i=0;i<n-j;i++){
             printf(" ");
         }
         for(int k=0;k<=no;k++){
             printf("%d",no);
+            if(i<n/2) no++;
+            else no--;
         }
-        if(i<n/2) no++;
-        else no--;
         printf("\n");
     }
 
