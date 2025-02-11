@@ -5,9 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int n,no=1,num=1;
+    int n,no=1;
     scanf("%d",&n);
     for(int j=0;j<n;j++){
+        int num=1;
         for(int i=0;i<n-j;i++){
             printf(" ");
         }
