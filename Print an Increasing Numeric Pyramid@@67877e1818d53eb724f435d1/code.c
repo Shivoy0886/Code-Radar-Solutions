@@ -5,15 +5,16 @@ char* welcome() {
 }
 
 int main() {
-     int n,no=1num=1;
+     int n,no=1;
     scanf("%d",&n);
     for(int j=0;j<n;j++){
-        for(int i=0;i<n-j;i++){
+        int num=1;
+        for(int i=0;i<n-1-j;i++){
             printf(" ");
         }
         for(int k=0;k<no;k++){
             printf("%d",num);
-            if(k<=n/2) num++;
+            if(k<no/2) num++;
             else num--;
         }
         no+=2;
