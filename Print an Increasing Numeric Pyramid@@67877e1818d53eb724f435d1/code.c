@@ -13,9 +13,7 @@ int main() {
             printf(" ");
         }
         for(int k=0;k<no;k++){
-            printf("%d ",num);
-            if(k<no/2) num++;
-            else num--;
+            printf("%d ",k);
         }
         no++;
         printf("\n");
