@@ -13,7 +13,7 @@ int main() {
         }
         for(int k=0;k<no;k++){
             printf("%d",num);
-            if(k<=n/2) num++;
+            if(k<n/2) num++;
             else num--;
         }
         no+=2;
