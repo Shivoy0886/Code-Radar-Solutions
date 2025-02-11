@@ -8,6 +8,8 @@ int main() {
     while(t--){
         int num;
         scanf("%d",&num);
+    }
+    while(t--){
         printf("%d\n",isPrime(num));
     }
     return 0;
