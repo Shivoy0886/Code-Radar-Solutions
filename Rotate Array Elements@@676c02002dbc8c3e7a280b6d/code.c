@@ -9,17 +9,11 @@ int main(void){
     }
     scanf("%d",&k);
 
-    int temp2=num[n-1];
-    int temp1=num[n-2];
-
-    for(int i=0;i<n-2;i++){
-        num[n-1-i]=num[n-i-k];
+    int temp[k];
+    for(int i=0,j=k+1;i<k;j>0;i++;j--){
+        temp[i]=num[j];
     }
-    num[0]=temp1;
-    num[1]=temp2;
-
-    for(int i=0;i<n;i++){
-        printf("%d\n",num[i]);
-    }
+    printf("%d",temp[0]);
+    printf("%d",temp[1]);
 
 }
