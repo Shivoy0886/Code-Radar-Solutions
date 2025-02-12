@@ -16,7 +16,10 @@ int main(void){
     for(int i=0;i<n-k;i++){
         num[n-i-1]=num[n-k-i-1];
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<k;i++){
+        printf("%d",temp[i]);
+    }
+    for(int i=2;i<n;i++){
         printf("%d",num[i]);
     }
     
