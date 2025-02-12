@@ -17,10 +17,10 @@ int main(void){
         num[n-i-1]=num[n-k-i-1];
     }
     for(int i=0;i<k;i++){
-        printf("%d",temp[i]);
+        printf("%d\n",temp[i]);
     }
     for(int i=2;i<n;i++){
-        printf("%d",num[i]);
+        printf("%d\n",num[i]);
     }
     
 }
