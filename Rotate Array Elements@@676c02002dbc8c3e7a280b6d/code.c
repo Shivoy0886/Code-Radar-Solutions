@@ -14,7 +14,7 @@ int main(void){
         temp[i]=num[j];
     }
     for(int i=0;i<n-k;i++){
-        num[n-i-i]=num[n-k-1];
+        num[n-i-1]=num[n-k-i-1];
     }
     for(int i=0;i<n;i++){
         printf("%d",num[i]);
