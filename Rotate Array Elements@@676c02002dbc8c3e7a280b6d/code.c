@@ -10,7 +10,7 @@ int main(void){
     scanf("%d",&k);
 
     int temp[k];
-    for(int i=0,j=k+1;i<k &&;j<n;i++;j++){
+    for(int i=0,j=k+1;i<k &&;j<n;i++,j++){
         temp[i]=num[j];
     }
     printf("%d",temp[0]);
