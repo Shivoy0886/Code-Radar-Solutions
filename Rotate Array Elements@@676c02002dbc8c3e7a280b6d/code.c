@@ -19,7 +19,7 @@ int main(void){
     for(int i=0;i<k;i++){
         printf("%d\n",temp[i]);
     }
-    for(int i=2;i<n;i++){
+    for(int i=k;i<n;i++){
         printf("%d\n",num[i]);
     }
     
