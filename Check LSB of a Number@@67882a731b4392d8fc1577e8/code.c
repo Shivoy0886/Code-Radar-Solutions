@@ -7,5 +7,5 @@ int main(void){
     if(check==1)
         printf("Set");
     else
-        printf("Set");
+        printf("Not Set");
 }
