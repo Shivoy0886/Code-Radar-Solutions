@@ -17,5 +17,5 @@ int main(void){
          smallest=nums[i];
        }
       }
-      printf("%d %d\n",largest,smallest);
+      printf("%d %d\n",smallest,largest);
 }
