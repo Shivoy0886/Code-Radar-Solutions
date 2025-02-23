@@ -13,7 +13,7 @@ int main(void){
             if(nums[i]==nums[j]){
                 count++;
             }
-             printf("%d %d\n",nums[i],count);
         }
+        printf("%d %d\n",nums[i],count);
       }
 }
