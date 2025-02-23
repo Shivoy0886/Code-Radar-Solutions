@@ -13,7 +13,7 @@ int main(void){
             even++;
         }
         else{
-            od++;
+            odd++;
        }
       }
       printf("%d %d\n",even,odd);
