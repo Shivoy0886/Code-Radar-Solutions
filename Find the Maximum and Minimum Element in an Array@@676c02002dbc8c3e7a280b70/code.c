@@ -5,7 +5,7 @@ int main(void){
    scanf("%d",&n);
    int nums[n];
    for(int i=0;i<n;i++){
-    scanf("%d ",&nums[i])
+    scanf("%d ",&nums[i]);
    }
    int largest=marks[0];
    int smallest=marks[0];
