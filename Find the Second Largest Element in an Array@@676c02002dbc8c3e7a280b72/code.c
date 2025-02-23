@@ -16,7 +16,7 @@ int main(void){
     int sec_largest=nums[0];
     for(int i=0;i<n;i++){
         if(nums[i]>sec_largest && nums[i]!=largest){
-            sec_largest=num[i];
+            sec_largest=nums[i];
         }
     }
 
