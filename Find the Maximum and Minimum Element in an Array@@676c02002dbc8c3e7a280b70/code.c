@@ -7,15 +7,15 @@ int main(void){
    for(int i=0;i<n;i++){
     scanf("%d ",&nums[i]);
    }
-   int largest=marks[0];
-   int smallest=marks[0];
+   int largest=nums[0];
+   int smallest=nums[0];
    for(int i=0;i<n;i++){
-        if(marks[i]>largest){
-         largest=marks[i];
+        if(nums[i]>largest){
+         largest=nums[i];
         }
-        if(marks[i]<smallest){
-         smallest=marks[i];
+        if(nums[i]<smallest){
+         smallest=nums[i];
        }
       }
-      printf("%d %d\n",lsrgest,smallest);
+      printf("%d %d\n",largest,smallest);
 }
