@@ -5,7 +5,7 @@ int main(void){
     scanf("%d %d",&n1,&n2);
     int msb = n1>>n2;
     if(msb&1)
-        printf("Set");
+        printf("1");
     else
-        printf("Not Set");
+        printf("0");
 }
