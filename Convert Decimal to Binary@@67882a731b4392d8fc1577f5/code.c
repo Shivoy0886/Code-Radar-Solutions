@@ -10,9 +10,10 @@ int main(void){
         c++;
     }
     int b[c];
+    int llsb;
     for(int i=c-1;i>=0;i--){
-        lsb==bn&1;
-        if(lsb==1) b[i]=1;
+        llsb==bn&1;
+        if(llsb==1) b[i]=1;
         else b[i]=0;
         bn>>1;
     }
