@@ -3,9 +3,10 @@
 int main(void){
     int n,c=0;
     scanf("%d",&n);
-    while(n!=0){
-        if(n%2==1) c++;
-        n/=2;
+    int msb=1<<(32-1);
+    while(!(n&msb)){
+        msb>>=1;
+        c++;
     }
-    printf("%d",32-c);
+    printf("%d",c);
 }
