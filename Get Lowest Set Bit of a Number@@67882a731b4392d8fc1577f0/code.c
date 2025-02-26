@@ -1,10 +1,12 @@
 #include<stdio.h>
 
 int main(void){
-    int n;
+    int n,c=0;
     scanf("%d",&n);
-    n=n&1;
-    if(n==1) printf("1");
-    else printf("0");
-    
+    int lsb=n&(-n);
+    while(lsb){
+        lsb>>=1;
+        c++;
+    }
+    printf("%d"c-1);
 }
