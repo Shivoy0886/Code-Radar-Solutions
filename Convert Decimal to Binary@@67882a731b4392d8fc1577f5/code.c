@@ -15,7 +15,7 @@ int main(void){
         llsb=bn&1;
         if(llsb==1) b[i]=1;
         else b[i]=0;
-        bn>>1;
+        bn=bn>>1;
     }
     for(int i=0;i<c;i++){
         printf("%d",b[i]);
