@@ -8,5 +8,5 @@ int main(void){
         lsb>>=1;
         c++;
     }
-    printf("%d"c-1);
+    printf("%d",c-1);
 }
