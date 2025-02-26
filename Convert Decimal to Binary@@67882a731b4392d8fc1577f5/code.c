@@ -1,23 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void){
-    int n,lsb,c=0;
-    int bn=n;
-    scanf("%d",&n);
-    while(n){
-        lsb=n&1;
-        n=n>>1;
-        c++;
+void decimal_to_binary(int n) {
+    if (n == 0) {
+        printf("0");
+        return;
     }
-    int b[c];
-    int llsb;
-    for(int i=c-1;i>=0;i--){
-        llsb=bn&1;
-        if(llsb==1) b[i]=1;
-        else b[i]=0;
-        bn=bn>>1;
+    int bits[32];
+    int index = 0;
+
+    while (n > 0) {
+        bits[index++] = n & 1; 
+        n >>= 1;           
     }
-    for(int i=0;i<c;i++){
-        printf("%d",b[i]);
+    for (int i = index - 1; i >= 0; i--) {
+        printf("%d", bits[i]);
     }
+}
+
+int main() {
+    int num = 10;
+    printf("Binary representation of %d is: ", num);
+    decimal_to_binary(num);  // Output: 1010
+    return 0;
 }
