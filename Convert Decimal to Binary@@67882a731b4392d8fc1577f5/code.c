@@ -18,8 +18,9 @@ void decimal_to_binary(int n) {
 }
 
 int main() {
-    int num = 10;
-    printf("Binary representation of %d is: ", num);
-    decimal_to_binary(num);  // Output: 1010
+    int num;
+    scanf("%d",&num);
+    printf(num);
+    decimal_to_binary(num);
     return 0;
 }
