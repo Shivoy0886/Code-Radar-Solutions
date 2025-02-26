@@ -20,7 +20,6 @@ void decimal_to_binary(int n) {
 int main() {
     int num;
     scanf("%d",&num);
-    printf(num);
     decimal_to_binary(num);
     return 0;
 }
