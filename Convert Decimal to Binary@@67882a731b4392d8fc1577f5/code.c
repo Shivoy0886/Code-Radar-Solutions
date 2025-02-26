@@ -9,6 +9,4 @@ int main(void){
         else printf("0");
         n=n>>1;
     }
-    printf("%d",c);
-
 }
