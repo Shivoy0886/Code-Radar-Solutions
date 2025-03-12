@@ -13,6 +13,5 @@ int main(void){
         for(int i=j+1;i<N;i++){
             if(arr[j]+arr[i]==x) printf("%d %d\n",arr[j],arr[i]);
         }
-            break;
     }
 }
