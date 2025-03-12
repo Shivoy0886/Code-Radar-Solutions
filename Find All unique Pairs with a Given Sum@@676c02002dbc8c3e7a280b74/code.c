@@ -1,12 +1,17 @@
 #include<stdio.h>
 
 int main(void){
-    int arr[]={1,2,3,4,5,6,7,8,9,10};
+    int N,x;
+    scanf("%d",&N);
+    int arr[N];
+    for(int i=0;i<N;i++){
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d",&x);
     int c=0;
-    for(int j=0;j<10;j++){
-        for(int i=j;i<10;i++){
-            if(arr[j]+arr[i]==8) c++;
+    for(int j=0;j<N;j++){
+        for(int i=j;i<N;i++){
+            if(arr[j]+arr[i]==x) printf("%d %d\n",arr[j],arr[i]);
         }
     }
-    printf("Pairs : %d\n",c);
 }
